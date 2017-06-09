@@ -1,10 +1,10 @@
 {
-  "name": "markcell/jquery-tabledit",
-  "version": "1.2.3",
+  "name": "YuyaYokosuka/jquery-tabledit",
+  "version": "1.2.3.1",
   "description": "Inline editor for HTML tables compatible with Bootstrap.",
   "main": "jquery.tabledit.js",
   "license": "MIT",
-  "homepage": "http://markcell.github.io/jquery-tabledit",
+  "homepage": "https://github.com/YuyaYokosuka/jquery-tabledit",
   "keywords": [
     "html",
     "table",
