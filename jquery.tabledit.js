@@ -108,8 +108,7 @@ if (typeof jQuery === 'undefined') {
                 editable: function() {
                     for (var i = 0; i < settings.columns.editable.length; i++) {
                         var $td = $table.find('tbody td:nth-child(' + (parseInt(settings.columns.editable[i][0]) + 1) + ')');
-
-                        $td.each(function() {
+                        $td.filter(':not(.tabledit-view-mode)').each(function() {
                             // Get text of this cell.
                             var text = $(this).text();
 
