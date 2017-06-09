@@ -190,7 +190,7 @@ if (typeof jQuery === 'undefined') {
                                        </div></div>';
 
                         // Add toolbar column cells.
-                        $table.find('tbody>tr').append('<td style="white-space: nowrap; width: 1%;">' + toolbar + '</td>');
+                        $table.find('tr:gt(0):not(:has(.tabledit-toolarea))').append('<td class="tabledit-toolarea" style="white-space: nowrap; width: 1%;">' + toolbar + '</td>');
                     }
                 }
             }
@@ -572,7 +572,7 @@ if (typeof jQuery === 'undefined') {
 
         /**
          * Keyup event on table element.
-         * 
+         *
          * @param {object} event
          */
         $table.on('keyup', function(event) {
