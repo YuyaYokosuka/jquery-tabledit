@@ -591,12 +591,12 @@ if (typeof jQuery === 'undefined') {
             switch (event.keyCode) {
                 case 9:  // Tab.
                     if (!settings.editButton) {
-                        Edit.submit($td);
+                        //dit.submit($td);
                         Mode.edit($td.closest('td').next());
                     }
                     break;
                 case 13: // Enter.
-                    Edit.submit($td);
+                    //Edit.submit($td);
                     break;
                 case 27: // Escape.
                     Edit.reset($td);
